@@ -26,7 +26,10 @@ padding-left:0;
 }
 
 .bg-design-dark {
-    background-image: url("../assets/images/patternpad.svg");
+    background-color: rgb(56, 53, 53);
+    color: white;
+    margin: 3%;
+    font-weight: 700;
 }
 
 #hero-section {
