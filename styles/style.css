@@ -18,14 +18,19 @@ padding-left:0;
     padding-right:30px;
   }
 
-#hero-section {
-    /* height: 100vh; */
-    margin-top: 8%;
+#main-program{
+    background-image: url("../assets/images/patternpad.svg");
+    margin-top: 5%;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 
-#main-program{
-    padding-top: 1px;
-    padding-bottom: 50px;
+.bg-design-dark {
+    background-image: url("../assets/images/patternpad.svg");
+}
+
+#hero-section {
+    padding-bottom: 5%;
 }
 
 #feature-speakers {
@@ -38,4 +43,17 @@ padding-left:0;
 
 .marging-botton-5 {
     margin-bottom: 25%;
+}
+
+
+
+@media screen and (min-width:765px) {
+    #hero-section {
+        height: 100vh;
+        background-image: url("../assets/images/daddy-image.jpg");
+        background-repeat: no-repeat;
+        background-position: right 5%;
+        background-size: 30% 100%;
+        color: #ec5242;
+    }
 }
