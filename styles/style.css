@@ -12,3 +12,30 @@ padding-left:0;
     width: 15%;
     height: 10%;
 }
+
+.navbar-nav > li{
+    padding-left:30px;
+    padding-right:30px;
+  }
+
+#hero-section {
+    /* height: 100vh; */
+    margin-top: 8%;
+}
+
+#main-program{
+    padding-top: 1px;
+    padding-bottom: 50px;
+}
+
+#feature-speakers {
+    padding-top: 0;
+}
+
+#about-section {
+    height: 100vh;
+}
+
+.marging-botton-5 {
+    margin-bottom: 25%;
+}
