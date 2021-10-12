@@ -112,6 +112,10 @@ body {
     height: 20%;
 }
 
+.social-icon {
+    height: 5%;
+}
+
 .re-size-last-image {
     height: 20%;
     width: 50%;
