@@ -5,7 +5,7 @@ I've created this project as my final project for module one.
 
 I used ESlint to manage the files for the front-end, using loaders for HTML, CSS, and JavaScript files, in order to fix some special thing at the moment to use the front-end in a server. Feel free to suggest more additional features for this repository, or if you want to use it, feel free to do that as well.
 
-![alt text](https://github.com/micheaol/Portfolio-project/blob/mobile-feature/images/screen.PNG)
+![alt text](https://github.com/micheaol/module-one-capstone/blob/capstone-mobile-version/assets/images/ui.PNG)
 
 Additional description about the project and its features.
 
@@ -24,8 +24,8 @@ Additional description about the project and its features.
 
 ## Live Demo
 
-<!-- [Live Demo Link](https://micheaol.github.io/Portfolio-project/) -->
-<!-- [Live Demo Link](https://micheaol-portfolio.netlify.app/) -->
+[Live Demo Link](https://micheaol.github.io/module-one-capstone/)
+
 
 To get a local copy up and running follow these simple example steps.
 
@@ -36,6 +36,9 @@ Usage
 Run tests
 Deployment
 
+
+## 🤝 Credit
+-Original design idea by Cindy Shin in Behance.
 
 ## Authors
 
