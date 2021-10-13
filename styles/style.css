@@ -154,7 +154,7 @@ body {
   display: flex;
 }
 
-@media screen and (min-width: 765px) {
+@media screen and (min-width: 768px) {
   #hero-section {
     height: 100vh;
     background: linear-gradient(0deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.2)), url('../assets/images/new-bg.svg');
