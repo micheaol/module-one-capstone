@@ -1,20 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+@font-face {
+    font-family: cocogoose;
+    src: url("../assets/fonts/Cocogoose-Compressed/Cocogoose-Compressed-Bold-trial.ttf"),
+         url("../assets/fonts/Cocogoose-Compressed/Cocogoose-Compressed-Regular-Trial.ttf");
+}
 
 section{
     padding-top: 60px;
 }
 
+.display-5 {
+    font-family: 'Lato', sans-serif;
+}
 .padding-0{
 padding-right:0;
 padding-left:0;
 }
 
+
 body {
-    background-color: #d3d3d3;
+    background-color: #fff;
 }
 
 .small-class {
     color: red;
 }
+
 .img-size {
     width: 25%;
     height: 10%;
@@ -31,6 +42,10 @@ body {
     margin-top: 5%;
     padding-top: 50px;
     padding-bottom: 50px;
+}
+
+#about-section {
+    color: #ec5242;
 }
 
 .bg-design-dark {
@@ -52,6 +67,8 @@ body {
     background-position: 100% 100%, cover;
     background-size: 100% 100%;
     color: #ec5242;
+    
+
 }
 
 .parent-div {
@@ -103,9 +120,6 @@ body {
     font-weight: bold;
 }
 
-#about-section {
-    height: 100vh;
-}
 
 .img-reduce {
     width: 25%;
@@ -113,7 +127,7 @@ body {
 }
 
 .social-icon {
-    height: 5%;
+    width: 35%;
 }
 
 .re-size-last-image {
@@ -137,6 +151,11 @@ body {
     border: 2px solid red;
     width: 13%;
     padding-left: 1%;
+}
+
+#accordion__content {
+    height: 50%;
+    overflow: hidden;
 }
 
 
@@ -185,4 +204,5 @@ body {
         font-size: small;
         cursor: pointer;
     }
+
 }
