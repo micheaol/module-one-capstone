@@ -1,13 +1,8 @@
-const createMyElement = (para) => {
-  return document.createElement(para);
-};
+const createMyElement = (para) => document.createElement(para);
 
-const getMyElement = (para) => {
-  return document.querySelector(para);
-};
+const getMyElement = (para) => document.querySelector(para);
 
 const speakersSection = getMyElement('.my-row');
-
 
 const ministers = [
   {
@@ -60,9 +55,6 @@ const ministers = [
   },
 ];
 
-
-
-
 function displaySpeaker() {
   ministers.forEach((speaker) => {
     const divContainer = createMyElement('div');
@@ -85,7 +77,7 @@ function displaySpeaker() {
 
     const crownImg = createMyElement('img');
     crownImg.src = speaker.crownImg;
-    crownImg.className = 'crown-image'
+    crownImg.className = 'crown-image';
 
     divInner.appendChild(h1);
     divInner.appendChild(para);
@@ -95,11 +87,8 @@ function displaySpeaker() {
     divContainer.appendChild(imageTag);
     divContainer.appendChild(divInner);
 
-    
     speakersSection.appendChild(divContainer);
   });
-
-
 }
 
 displaySpeaker();
