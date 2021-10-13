@@ -150,11 +150,10 @@ body {
   display: none;
 }
 
-
 .close-cross {
-    position: absolute;
-    right: 5%;
-    top: 25%;
+  position: absolute;
+  right: 5%;
+  top: 25%;
 }
 
 @media screen and (min-width: 768px) {

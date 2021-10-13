@@ -6,12 +6,6 @@ const speakersSection = getMyElement('.my-row');
 const closeBtn = getMyElement('.close-cross');
 const mobileMenu = getMyElement('.close-mobile');
 const togglerBtn = getMyElement('.navbar-toggler');
-const accordionButton = getMyElement('.accordion-button');
-const displayAccordion = document.querySelectorAll(
-  '#accordion__content .div-container:nth-child(1n+3)'
-);
-
-console.log(displayAccordion);
 
 function closeToggler() {
   mobileMenu.style.display = 'none';
