@@ -129,6 +129,17 @@ body {
     border: blanchedalmond solid 2px;
 }
 
+.card-hover-border {
+    cursor: pointer;
+}
+
+.span-campaign {
+    border: 2px solid red;
+    width: 13%;
+    padding-left: 1%;
+}
+
+
 @media screen and (min-width:765px) {
     #hero-section {
         height: 100vh;
@@ -153,5 +164,25 @@ body {
         left: -6%;
         top: -13%;
         object-fit: cover;
+    }
+
+    .top-nav {
+        background-color: black;
+    }
+    .inner-ul {
+        display: flex;
+        justify-content: flex-end;
+        align-content: space-between;
+        text-decoration: none;
+        padding: 5px;
+        color: blanchedalmond;
+        margin-right: 7%;
+    }
+
+    .inner-ul li {
+        list-style-type: none;
+        margin-right: 1%;
+        font-size: small;
+        cursor: pointer;
     }
 }
