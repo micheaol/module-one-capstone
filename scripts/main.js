@@ -3,6 +3,21 @@ const createMyElement = (para) => document.createElement(para);
 const getMyElement = (para) => document.querySelector(para);
 
 const speakersSection = getMyElement('.my-row');
+const closeBtn = getMyElement('.close-cross');
+const mobileMenu = getMyElement('.close-mobile');
+const togglerBtn = getMyElement('.navbar-toggler');
+
+function closeToggler() {
+  mobileMenu.style.display = 'none';
+}
+
+togglerBtn.addEventListener('click', () => {
+  if (mobileMenu.style.display === 'none') {
+    mobileMenu.style.display = 'block';
+  }
+});
+
+closeBtn.addEventListener('click', closeToggler);
 
 const ministers = [
   {
@@ -41,7 +56,8 @@ const ministers = [
     id: 5,
     name: 'Michael Ajogba',
     title: 'Snr. Pastor of the Mantle Church',
-    message: 'We believe the Lord brought you here to bless your life. Lord brought you here to bless your life.',
+    message:
+      'We believe the Lord brought you here to bless your life. Lord brought you here to bless your life.',
     ministerImage: './assets/images/daddy-image.jpg',
     crownImg: './assets/images/chess-board.png',
   },

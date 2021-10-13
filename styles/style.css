@@ -154,6 +154,12 @@ body {
   display: flex;
 }
 
+.close-cross {
+    position: absolute;
+    right: 5%;
+    top: 25%;
+}
+
 @media screen and (min-width: 768px) {
   #hero-section {
     height: 100vh;
