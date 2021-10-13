@@ -37,6 +37,9 @@ Run tests
 Deployment
 
 
+## 🤝 Credit
+-Original design idea by Cindy Shin in Behance.
+
 ## Authors
 
 👤 **Author1**
