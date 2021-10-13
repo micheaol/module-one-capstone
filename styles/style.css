@@ -153,11 +153,14 @@ body {
     padding-left: 1%;
 }
 
-#accordion__content {
-    height: 50%;
+/* #accordion__content {
+    height: 20;
     overflow: hidden;
-}
+} */
 
+#accordion__content .div-container:nth-of-type(1n+3) {
+    display: none;
+}
 
 @media screen and (min-width:765px) {
     #hero-section {
@@ -203,6 +206,10 @@ body {
         margin-right: 1%;
         font-size: small;
         cursor: pointer;
+    }
+
+    #accordion__content .div-container:nth-of-type(1n+3) {
+        display: flex;
     }
 
 }
