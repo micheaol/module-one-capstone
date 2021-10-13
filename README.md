@@ -24,8 +24,7 @@ Additional description about the project and its features.
 
 ## Live Demo
 
-<!-- [Live Demo Link](https://micheaol.github.io/Portfolio-project/) -->
-<!-- [Live Demo Link](https://micheaol-portfolio.netlify.app/) -->
+<!-- [Live Demo Link](https://micheaol.github.io/module-one-capstone/) -->
 
 To get a local copy up and running follow these simple example steps.
 
